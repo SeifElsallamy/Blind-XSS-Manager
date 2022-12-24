@@ -1,0 +1,80 @@
+<html>
+<head>
+<script src="background.js"></script>
+<script src="popup.js"></script>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <label for="domain">Domain:</label>
+      </td>
+      <td>
+        <input placeholder="Eg: *.xss.ht" type="text" id="domain" name="domain">
+      </td>
+	  <td>
+	  <button id="saveDomainButton">Save</button>
+	</td>
+		  <td>
+	  <button id="history"><a href="history.html">History</a></button>
+	</td>
+    </tr>
+	 <tr>
+	 </tr>
+    <tr>
+      <td>
+        <label for="current-url">URL:</label>
+      </td>
+      <td>
+        <input type="text" id="current-url" name="current-url">
+      </td>
+	        <td>
+        <label for="nonce">Hash:</label>
+      </td>
+      <td>
+        <input type="text" disabled style="width: 60px" id="nonce" name="nonce">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="payload">Payloads:</label>
+      </td>
+    </tr>
+	<tr>
+	<td>
+	<label for="payload">Script:</label><br>
+	<label for="payload">JS-URI:</label><br>
+	<label for="payload">Input:</label><br>
+	<label for="payload">Img:</label><br>
+	<label for="payload">Video:</label><br>
+	<label for="payload">IFrame:</label><br>
+	<label for="payload">XMLHTTP:</label><br>
+	<label for="payload">JQuery:</label>
+	</td>
+	 <td>
+        <input id="payload1" name="payload1"/><br>
+		<input id="payload2" name="payload2"/><br>
+		<input id="payload3" name="payload3"/><br>
+		<input id="payload4" name="payload4"/><br>
+		<input id="payload5" name="payload5"/><br>
+		<input id="payload6" name="payload6"/><br>
+		<input id="payload7" name="payload7"/><br>
+		<input id="payload8" name="payload8"/>
+      </td>
+	  	     <td>
+        <button type="button" id="copy1">Copy</button>
+		<button type="button" id="copy2">Copy</button>
+		<button type="button" id="copy3">Copy</button>
+		<button type="button" id="copy4">Copy</button>
+		<button type="button" id="copy5">Copy</button>
+		<button type="button" id="copy6">Copy</button>
+		<button type="button" id="copy7">Copy</button>
+		<button type="button" id="copy8">Copy</button>
+      </td>
+	  <tr>
+	  <td></td>
+
+	  </tr>
+	</tr>
+  </table><div style="display:none; height:20px; width:100%; background-color:pink;" id="message"><p style="margin-top:5px; color:white;">Saved to History</p></div></body>
+</html>
