@@ -5,7 +5,7 @@ A Chrome extension that keeps track of the injected urls.
 
 It adds a unique value for each payload assigned to the url and recorded by the extension when it gets coppied.
 
-The payloads are almost the same as the payloads by @iammandatory in his XSSHunter Project.
+The payloads are almost the same as the payloads by [@iammandatory](https://twitter.com/iammandatory) in his XSSHunter Project.
 
 ****
   
