@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "My Extension",
+  "name": "Blind XSS Manager",
   "version": "1.0",
-  "description": "A simple extension that shows a menu",
+  "description": "A Chrome extension that keeps track of the injected urls with Blind XSS payloads.",
 
   "permissions": [
     "activeTab",
