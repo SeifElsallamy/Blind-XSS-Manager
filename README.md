@@ -1,7 +1,7 @@
 # Blind-XSS-Manager
 Never forget where you inject.
 
-A Chrome extension that keeps track of the injected urls.
+A Chrome extension that keeps track of the injected urls with Blind XSS payloads.
 
 It adds a unique value for each payload assigned to the url and recorded by the extension when it gets coppied.
 
