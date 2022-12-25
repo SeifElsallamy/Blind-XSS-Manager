@@ -7,6 +7,8 @@ It adds a unique value for each payload assigned to the url and recorded by the 
 
 The payloads are almost the same as the payloads by [@iammandatory](https://twitter.com/iammandatory) in his XSSHunter Project.
 
+Developed with the help of GPT-3.
+
 ****
   
 ![image](https://user-images.githubusercontent.com/11223632/209441622-1187dfe8-1023-4145-a71d-2f5a0177ed5a.png)
