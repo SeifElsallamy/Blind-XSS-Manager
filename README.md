@@ -10,6 +10,12 @@
 
 > Developed with the help of GPT-3.
 
+### 🧑‍💻 Contributors
+
+- [@SeifElsallamy](https://github.com/SeifElsallamy) — Original Author  
+
+- [@arthur4ires](https://github.com/arthur4ires) — Manifest V3 migration
+
 ### Usage
 
 #### Clone the Project:
@@ -29,7 +35,4 @@ git clone https://github.com/SeifElsallamy/Blind-XSS-Manager.git
 
 <p align="right"><img width="45%" align="right" src="https://user-images.githubusercontent.com/11223632/209441632-3b88e6a6-2395-4fd4-a003-adbd7fb563b1.png"  /></p>
 
-### 🧑‍💻 Contributors
 
-- [@SeifElsallamy](https://github.com/SeifElsallamy) — Original Author  
-- [@arthur4ires](https://github.com/arthur4ires) — Manifest V3 migration
